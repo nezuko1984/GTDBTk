@@ -25,8 +25,8 @@ def readme():
 
 meta = read_meta()
 setup(
-    author=meta['author'],
-    author_email=meta['author_email'],
+    author=meta['author2'],
+    author_email=meta['author_email2'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Science/Research',
